@@ -15,19 +15,30 @@
 
 header{
     max-width: 1200px;
-    margin: auto;
+    margin: auto; 
+    position: ;
 }
 
 .head-container{
     display: flex;
     margin: auto;
-    padding: 10px;
+    padding: 10px 0px;
     justify-content: center;
+    background-color:#FF6900;
+    height: 60px;
 }
 
 header .menu, .top-logo,.top-items{
     width: calc(100% / 3);
     text-align: center;
+    padding-top: 10px;
+    color: #ffff;
+}
+
+.logo {
+    text-align: center;
+   position: relative;
+   bottom: 9px;
 }
 
 /*fine header*/
@@ -40,6 +51,16 @@ header .menu, .top-logo,.top-items{
     max-width: 1000px;
     margin: auto;
     padding-left: 20px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+li{
+ margin: 0px 5px;
+   
 }
 
 .product {
@@ -61,79 +82,52 @@ header .menu, .top-logo,.top-items{
 
 .discount-red {
     background-color: red;
-    position: relative ;
-    left:0px;
-    bottom: 50px;
+    position: absolute;
+    bottom: 150px;
      
 }
 
 .sustainability-green {
     background-color: green;
-    position: relative;
-    left: 0px;
-    bottom: 50px;
+    position: absolute;
+    bottom: 150px ;
+    left: 55px ;
 }
 
-.heart1{
-    padding: 5px 10px;
-    font-size: 30px;
-    text-align: center;
-    background-color: #ffff;
-    position: relative;
-    bottom: 400px;
-    left: 116px;
-}
-.heart2, .heart3{
-    padding: 5px 10px;
-    font-size: 30px;
-    text-align: center;
-    background-color: #ffff;
-    position: relative;
-    bottom: 400px;
-    left: 213px;
+.last{
+    background-color: green;
+    position: absolute;
+    bottom: 150px ;
+    left: 10px ;
 }
 
-.heart4{
-    padding: 5px 10px;
-    font-size: 30px;
-    text-align: center;
-    background-color: #ffff;
-    position: relative;
-    bottom: 400px;
-    left: 116px;
-}
-.heart5{
-    padding: 5px 10px;
-    font-size: 30px;
-    text-align: center;
-    background-color: #ffff;
-    position: relative;
-    bottom: 400px;
-    left: 256px;
+
+
+/*fine main*/
+
+/*inizio footer*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1A1A1A;
+    height: 90px ;
+    color: #ffff;
 }
 
-.heart6{
-    padding: 5px 10px;
-    font-size: 30px;
-    text-align: center;
-    background-color: #ffff;
-    position: relative;
-    bottom: 400px;
-    left: 160px;
+.legal, .social {
+    margin: 20px 100px;
 }
 
 /*inizio regole di debug*/
 
 .col{
-    border: 1px dotted black;
+    
 }
 
-.debug .head-container{
-    background-color:#FF6900 ;
-}
 
 .debug .menu, .top-logo,.top-items{
-    border: 1px dotted black;
+   
 }
 
 
