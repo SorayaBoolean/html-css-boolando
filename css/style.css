@@ -1,5 +1,42 @@
 *{
     padding: 0;
     margin: 0;
-    
+    box-sizing: border-box;
+
+}
+
+.body {
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Righteous', cursive;
+    font-family: 'Sacramento', cursive;
+}
+
+header{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.head-container{
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    justify-content: center;
+}
+
+header .menu, .top-logo,.top-items{
+    width: calc(100% / 3);
+    text-align: center;
+}
+
+
+
+
+/*inizio regole di debug*/
+
+.debug .head-container{
+    background-color:#FF6900 ;
+}
+
+.debug .menu, .top-logo,.top-items{
+    border: 1px dotted black;
 }
