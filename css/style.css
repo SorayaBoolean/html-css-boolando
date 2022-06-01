@@ -84,6 +84,7 @@ li{
     background-color: red;
     position: absolute;
     bottom: 150px;
+    left: 10px;
      
 }
 
@@ -101,7 +102,26 @@ li{
     left: 10px ;
 }
 
+.old-price{
+   text-decoration:line-through;
+}
 
+.new-price{
+    color: red;
+}
+
+.heart{
+    background-color: #ffff;
+    padding: 10px;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    font-size: 20px;
+}
+
+.heart:hover{
+    color: red;
+}
 
 /*fine main*/
 
