@@ -72,7 +72,54 @@ header .menu, .top-logo,.top-items{
     position: relative;
     left: 0px;
     bottom: 50px;
+}
 
+.heart1{
+    padding: 5px 10px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #ffff;
+    position: relative;
+    bottom: 400px;
+    left: 116px;
+}
+.heart2, .heart3{
+    padding: 5px 10px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #ffff;
+    position: relative;
+    bottom: 400px;
+    left: 213px;
+}
+
+.heart4{
+    padding: 5px 10px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #ffff;
+    position: relative;
+    bottom: 400px;
+    left: 116px;
+}
+.heart5{
+    padding: 5px 10px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #ffff;
+    position: relative;
+    bottom: 400px;
+    left: 256px;
+}
+
+.heart6{
+    padding: 5px 10px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #ffff;
+    position: relative;
+    bottom: 400px;
+    left: 160px;
 }
 
 /*inizio regole di debug*/
