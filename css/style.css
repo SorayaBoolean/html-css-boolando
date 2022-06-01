@@ -61,13 +61,18 @@ header .menu, .top-logo,.top-items{
 
 .discount-red {
     background-color: red;
-   
+    position: relative ;
+    left:0px;
+    bottom: 50px;
+     
 }
 
 .sustainability-green {
     background-color: green;
-    
-   
+    position: relative;
+    left: 0px;
+    bottom: 50px;
+
 }
 
 /*inizio regole di debug*/
