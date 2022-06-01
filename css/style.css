@@ -11,6 +11,8 @@
     font-family: 'Sacramento', cursive;
 }
 
+/*inizio header*/
+
 header{
     max-width: 1200px;
     margin: auto;
@@ -28,23 +30,45 @@ header .menu, .top-logo,.top-items{
     text-align: center;
 }
 
+/*fine header*/
+
+/*inizio main*/
+
 .main-container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
+    padding-left: 20px;
 }
 
 .product {
     width: calc(97% / 3 );
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 30px 10px;
+    position: relative;
 }
 
 .product .img1 {
     width: 100%;
 }
+ 
+.tag {
+    color:#ffff;
+    font-weight:bold ;
+    padding: 3px;
+}
 
+.discount-red {
+    background-color: red;
+   
+}
+
+.sustainability-green {
+    background-color: green;
+    
+   
+}
 
 /*inizio regole di debug*/
 
@@ -59,3 +83,6 @@ header .menu, .top-logo,.top-items{
 .debug .menu, .top-logo,.top-items{
     border: 1px dotted black;
 }
+
+
+
