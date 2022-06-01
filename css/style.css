@@ -72,7 +72,10 @@ li{
 
 .product .img1 {
     width: 100%;
+    height: auto
+    display: block ;
 }
+
  
 .tag {
     color:#ffff;
@@ -142,7 +145,7 @@ footer {
 /*inizio regole di debug*/
 
 .col{
-    
+   
 }
 
 
